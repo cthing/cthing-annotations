@@ -1,5 +1,7 @@
 # ![C Thing Software](https://www.cthing.com/branding/CThingSoftware-57x60.png "C Thing Software") cthing-annotations
 
+[![CI](https://github.com/cthing/cthing-annotations/actions/workflows/ci.yml/badge.svg)](https://github.com/cthing/cthing-annotations/actions/workflows/ci.yml)
+
 A library providing various annotations to enhance code quality and readability.
 
 | Annotation              | Description                                                                                                                               |
