@@ -1,14 +1,16 @@
 # ![C Thing Software](https://www.cthing.com/branding/CThingSoftware-57x60.png "C Thing Software") cthing-annotations
 
 [![CI](https://github.com/cthing/cthing-annotations/actions/workflows/ci.yml/badge.svg)](https://github.com/cthing/cthing-annotations/actions/workflows/ci.yml)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.cthing/cthing-annotations/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.cthing/cthing-annotations)
+[![javadoc](https://javadoc.io/badge2/org.cthing/cthing-annotations/javadoc.svg)](https://javadoc.io/doc/org.cthing/cthing-annotations)
 
 A library providing various annotations to enhance code quality and readability.
 
-| Annotation              | Description                                                                                                                               |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| AccessForTesting        | A marker annotation to indicate that a method, constructor or type is given increased access for testing purposes.                        |
-| NoCoverageGenerated     | An annotation to indicate to test coverage tools that the annotated item should be excluded from analysis.                                |
-| PackageNonnullByDefault | Declares that fields, method return types, method parameters, and type parameters within the annotated package are not `null` by default. |
+| Annotation                                                                                                                                 | Description                                                                                                                               |
+|--------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| [AccessForTesting](https://javadoc.io/doc/org.cthing/cthing-annotations/latest/org/cthing/annotations/AccessForTesting.html)               | A marker annotation to indicate that a method, constructor or type is given increased access for testing purposes.                        |
+| [NoCoverageGenerated](https://javadoc.io/doc/org.cthing/cthing-annotations/latest/org/cthing/annotations/NoCoverageGenerated.html)         | An annotation to indicate to test coverage tools that the annotated item should be excluded from analysis.                                |
+| [PackageNonnullByDefault](https://javadoc.io/doc/org.cthing/cthing-annotations/latest/org/cthing/annotations/PackageNonnullByDefault.html) | Declares that fields, method return types, method parameters, and type parameters within the annotated package are not `null` by default. |
 
 ## Usage
 The library is available from [Maven Central](https://repo.maven.apache.org/maven2/org/cthing/cthing-annotations/) using the following Maven dependency:
