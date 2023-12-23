@@ -12,6 +12,9 @@ A library providing various annotations to enhance code quality and readability.
 | [NoCoverageGenerated](https://javadoc.io/doc/org.cthing/cthing-annotations/latest/org/cthing/annotations/NoCoverageGenerated.html)         | An annotation to indicate to test coverage tools that the annotated item should be excluded from analysis.                                |
 | [PackageNonnullByDefault](https://javadoc.io/doc/org.cthing/cthing-annotations/latest/org/cthing/annotations/PackageNonnullByDefault.html) | Declares that fields, method return types, method parameters, and type parameters within the annotated package are not `null` by default. |
 
+Read the initial release [blog post](https://www.cthing.com/#/blog/cthingAnnotations) and browse the
+[Javadoc](https://javadoc.io/doc/org.cthing/cthing-annotations/latest/org/cthing/annotations/package-summary.html) for more information.
+
 ## Usage
 The library is available from [Maven Central](https://repo.maven.apache.org/maven2/org/cthing/cthing-annotations/) using the following Maven dependency:
 ```xml
