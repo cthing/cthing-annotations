@@ -36,11 +36,11 @@ dependencies {
     implementation(libs.jsr305)
 
     spotbugsPlugins(libs.spotbugsContrib)
-}
 
-configurations.checkstyle {
-    resolutionStrategy.capabilitiesResolution.withCapability("com.google.collections:google-collections") {
-        select("com.google.guava:guava:0")
+    modules {
+        module("com.google.collections:google-collections") {
+            replacedBy("com.google.guava:guava", "google-collections is now part of Guava")
+        }
     }
 }
 
