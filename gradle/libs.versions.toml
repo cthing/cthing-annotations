@@ -1,12 +1,12 @@
 [versions]
 java = "17"
-checkstyle = "10.12.5"
-spotbugs = "4.8.2"
+checkstyle = "10.13.0"
+spotbugs = "4.8.3"
 
 [plugins]
-spotbugs = { id = "com.github.spotbugs", version = "6.0.2" }
-versions = { id = "com.github.ben-manes.versions", version = "0.50.0" }
+spotbugs = { id = "com.github.spotbugs", version = "6.0.7" }
+versions = { id = "com.github.ben-manes.versions", version = "0.51.0" }
 
 [libraries]
 jsr305 = "com.google.code.findbugs:jsr305:3.0.2"
-spotbugsContrib = "com.mebigfatguy.sb-contrib:sb-contrib:7.6.3"
+spotbugsContrib = "com.mebigfatguy.sb-contrib:sb-contrib:7.6.4"
