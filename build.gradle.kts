@@ -13,6 +13,7 @@ plugins {
     checkstyle
     `maven-publish`
     signing
+    alias(libs.plugins.dependencyAnalysis)
     alias(libs.plugins.spotbugs)
     alias(libs.plugins.versions)
 }
@@ -33,7 +34,7 @@ java {
 }
 
 dependencies {
-    implementation(libs.jsr305)
+    api(libs.jsr305)
 
     spotbugsPlugins(libs.spotbugsContrib)
 }
@@ -52,6 +53,16 @@ spotbugs {
     effort = Effort.MAX
     reportLevel = Confidence.MEDIUM
     excludeFilter = file("dev/spotbugs/suppressions.xml")
+}
+
+dependencyAnalysis {
+    issues {
+        all {
+            onAny {
+                severity("fail")
+            }
+        }
+    }
 }
 
 fun isNonStable(version: String): Boolean {
@@ -82,6 +93,10 @@ tasks {
             memberLevel = JavadocMemberLevel.PUBLIC
             outputLevel = JavadocOutputLevel.QUIET
         }
+    }
+
+    check {
+        dependsOn(buildHealth)
     }
 
     spotbugsMain {
