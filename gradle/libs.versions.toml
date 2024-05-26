@@ -10,5 +10,6 @@ spotbugs = { id = "com.github.spotbugs", version = "6.0.7" }
 versions = { id = "com.github.ben-manes.versions", version = "0.51.0" }
 
 [libraries]
+cthingProjectVersion = "org.cthing:cthing-projectversion:1.0.0"
 jsr305 = "com.google.code.findbugs:jsr305:3.0.2"
 spotbugsContrib = "com.mebigfatguy.sb-contrib:sb-contrib:7.6.4"
