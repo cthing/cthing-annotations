@@ -10,23 +10,21 @@ repositories {
     mavenCentral()
 }
 
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
 plugins {
     `java-library`
     checkstyle
     `maven-publish`
     signing
+    alias(libs.plugins.cthingVersioning)
     alias(libs.plugins.dependencyAnalysis)
     alias(libs.plugins.spotbugs)
     alias(libs.plugins.versions)
-}
-
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath(libs.cthingProjectVersion)
-    }
 }
 
 version = ProjectVersion("1.0.1", BuildType.snapshot)
