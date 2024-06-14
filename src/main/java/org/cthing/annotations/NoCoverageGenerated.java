@@ -1,6 +1,6 @@
 /*
  * Copyright 2023 C Thing Software
- * PDX-License-Identifier: Apache-2.0
+ * SPDX-License-Identifier: Apache-2.0
  */
 
 package org.cthing.annotations;
