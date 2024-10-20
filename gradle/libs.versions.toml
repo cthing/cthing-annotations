@@ -1,14 +1,14 @@
 [versions]
 java = "17"
-checkstyle = "10.17.0"
-spotbugs = "4.8.5"
+checkstyle = "10.18.2"
+spotbugs = "4.8.6"
 
 [plugins]
 cthingVersioning = { id = "org.cthing.cthing-versioning", version = "1.0.1" }
-dependencyAnalysis = { id = "com.autonomousapps.dependency-analysis", version = "1.32.0" }
-spotbugs = { id = "com.github.spotbugs", version = "6.0.15" }
+dependencyAnalysis = { id = "com.autonomousapps.dependency-analysis", version = "2.2.0" }
+spotbugs = { id = "com.github.spotbugs", version = "6.0.25" }
 versions = { id = "com.github.ben-manes.versions", version = "0.51.0" }
 
 [libraries]
 jsr305 = "com.google.code.findbugs:jsr305:3.0.2"
-spotbugsContrib = "com.mebigfatguy.sb-contrib:sb-contrib:7.6.4"
+spotbugsContrib = "com.mebigfatguy.sb-contrib:sb-contrib:7.6.5"
