@@ -27,7 +27,7 @@ plugins {
     alias(libs.plugins.versions)
 }
 
-version = ProjectVersion("2.0.0", BuildType.snapshot)
+version = ProjectVersion("2.0.0", BuildType.release)
 group = "org.cthing"
 description = "A library providing various annotations to enhance code quality and readability."
 

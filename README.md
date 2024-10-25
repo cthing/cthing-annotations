@@ -15,14 +15,15 @@ A library providing various annotations to enhance code quality and readability.
 The library is available from [Maven Central](https://repo.maven.apache.org/maven2/org/cthing/cthing-annotations/) using the following Maven dependency:
 ```xml
 <dependency>
-  <groupId>org.cthing</groupId>
-  <artifactId>cthing-annotations</artifactId>
-  <version>1.0.0</version>
+    <groupId>org.cthing</groupId>
+    <artifactId>cthing-annotations</artifactId>
+    <version>2.0.0</version>
+    <scope>provided</scope>
 </dependency>
 ```
 or the following Gradle dependency:
 ```kotlin
-implementation("org.cthing:cthing-annotations:1.0.0")
+compileOnly("org.cthing:cthing-annotations:2.0.0")
 ```
 
 ### Building
