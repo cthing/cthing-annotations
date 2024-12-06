@@ -1,13 +1,13 @@
 [versions]
 java = "17"
-checkstyle = "10.18.2"
+checkstyle = "10.20.2"
 spotbugs = "4.8.6"
 
 [plugins]
 cthingVersioning = { id = "org.cthing.cthing-versioning", version = "3.0.0" }
-dependencyAnalysis = { id = "com.autonomousapps.dependency-analysis", version = "2.2.0" }
-spotbugs = { id = "com.github.spotbugs", version = "6.0.25" }
+dependencyAnalysis = { id = "com.autonomousapps.dependency-analysis", version = "2.6.0" }
+spotbugs = { id = "com.github.spotbugs", version = "6.0.26" }
 versions = { id = "com.github.ben-manes.versions", version = "0.51.0" }
 
 [libraries]
-spotbugsContrib = "com.mebigfatguy.sb-contrib:sb-contrib:7.6.5"
+spotbugsContrib = "com.mebigfatguy.sb-contrib:sb-contrib:7.6.8"

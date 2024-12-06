@@ -15,6 +15,7 @@ import java.lang.annotation.Target;
 
 /**
  * A marker annotation to indicate that a method, constructor or type is given increased access for testing purposes.
+ *
  * <p>
  * The most common usage of this annotation is to indicate that a method, which could have private access, is given
  * package access so that it can be unit tested. Typically, unit tests are placed in the same package as the code
@@ -31,6 +32,7 @@ import java.lang.annotation.Target;
  *        return groupId.replace('.', '/');
  *    }
  * </pre>
+ *
  * <p>
  * In the above example, the {@code groupToPath} method could have {@code private} access but has been given package
  * access so that it can be tested. The application of the {@link AccessForTesting} annotation makes this intention

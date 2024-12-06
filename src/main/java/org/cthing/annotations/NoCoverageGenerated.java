@@ -14,6 +14,7 @@ import java.lang.annotation.Target;
 
 /**
  * An annotation to indicate to test coverage tools that the annotated item should be excluded from analysis.
+ *
  * <p>
  * Tools such as the <a href="https://www.eclemma.org/jacoco/">Jacoco</a> coverage analyzer and the
  * <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a> IDE will automatically exclude from coverage
