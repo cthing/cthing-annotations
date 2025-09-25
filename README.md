@@ -1,7 +1,7 @@
 # ![C Thing Software](https://www.cthing.com/branding/CThingSoftware-57x60.png "C Thing Software") cthing-annotations
 
 [![CI](https://github.com/cthing/cthing-annotations/actions/workflows/ci.yml/badge.svg)](https://github.com/cthing/cthing-annotations/actions/workflows/ci.yml)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.cthing/cthing-annotations/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.cthing/cthing-annotations)
+[![Maven Central Version](https://img.shields.io/maven-central/v/org.cthing/cthing-annotations)](https://central.sonatype.com/artifact/org.cthing/cthing-annotations)
 [![javadoc](https://javadoc.io/badge2/org.cthing/cthing-annotations/javadoc.svg)](https://javadoc.io/doc/org.cthing/cthing-annotations)
 
 A library providing various annotations to enhance code quality and readability.
